@@ -6,7 +6,7 @@ import {navLinks} from "../constants/index.js";
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     return (
-        <nav className={"navbar w-full flex justify-between items-center py-6"}>
+        <nav className={"navbar w-full flex justify-between items-center py-6 px-3"}>
             <img src={`${logo}`} alt="hooBank" className={"w-[124px] h-[32px]"}/>
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
